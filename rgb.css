@@ -1,0 +1,97 @@
+body{
+ background: linear-gradient(45deg,rgb(229, 137, 229),rgb(249, 226, 254),rgb(240, 153, 240));
+ display: flex;
+ justify-content: center;
+position: fixed;
+}
+.container{
+  background-color: rgb(251, 224, 250);
+  margin: 100px;
+  padding: 50px;
+  border: solid 2px rgb(purple);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 2px ;
+
+  
+}
+
+h2{
+  color: purple;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+#color-box{
+  padding: 70px;
+  
+  background-color: azure;
+  border: 2px solid;
+  border-color: purple;
+  border-radius: 50%;
+  position: fixed;
+  margin: 20px;
+  background: white;
+
+}
+span{
+  font-weight: bold;
+  position: fixed;
+}
+.sliders{
+  
+  border: 2px solid;
+  border-color: purple;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  position: fixed;
+}
+.sliders .red{
+  width: 95%;
+  color: rgb(213, 42, 42);
+  accent-color:red;
+  cursor: pointer;
+}
+.sliders .green{
+  color: rgb(6, 103, 6);
+  accent-color:green;
+  cursor: pointer; 
+  width: 95%;
+}
+.sliders .blue{
+  color: navy;
+  accent-color: blue;
+  cursor: pointer;
+  width: 95%;
+}
+.button-container{
+  color: purple;
+  margin: 10px;
+  align-items: center;
+  text-align: end;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  
+}
+
+#copyButton{
+  color: rgb(75, 11, 75);
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: rgb(247, 202, 226);
+  border-color: purple;
+  align-items: center;
+  
+}
+
+#copyButton:hover{
+  transition: 0.2ms;
+  background-color: rgb(240, 216, 236);
+  cursor: pointer;
+  
+
+}
+.input-type-value{
+  margin: 10px;
+}
