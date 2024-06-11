@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(60deg,rgb(193, 193, 193),rgb(255, 255, 255),rgb(213, 211, 214),rgb(193, 193, 193));
+}
+.box{
+  background: linear-gradient(45deg,rgb(237, 249, 102),#fdffcc,rgb(240, 255, 127));
+  margin: 150px;
+  padding: 50px;
+   
+  border: 2px solid rgb(26, 7, 134);
+  box-shadow:2px 2px 7px 1px  rgb(216, 218, 225);
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h2{
+  margin-top: -30px;
+  color: rgb(26, 7, 134);
+  font-size: 23px;
+  text-shadow:1px 1px  rgb(222, 162, 233);
+ 
+}
+.counterdisplay{
+  font-size: 72px;
+  color: black;
+  text-shadow: 0px 2px 3px ;
+  margin-bottom: 20px;
+}
+button{
+  color: aliceblue;
+  font-weight: 700;
+  width:80px ;
+  margin: 10px;
+  height: 40px;
+  font-size: 30px;
+  background-color: rgb(26, 7, 134);
+  border-radius: 5px;
+}
+.btn:hover{
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color:rgb(26, 7, 134) ;
+
+
+}
+#Reset{
+  background-color: rgb(193, 14, 14);
+  font-size: larger;
+  border-radius: 10px;
+}
+#Reset:hover{
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(193, 14, 14);
+
+  
+}
